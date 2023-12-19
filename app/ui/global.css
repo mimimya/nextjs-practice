@@ -2,17 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type='number'] {
-  -moz-appearance: textfield;
-  appearance: textfield;
-}
+/*전역(여러 페이지)으로 적용할 css, root에서 관리하는 것이 용이하기 때문에 global.css 에 작성*/
 
-input[type='number']::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
-input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+
+
